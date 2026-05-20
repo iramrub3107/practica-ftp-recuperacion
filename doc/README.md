@@ -37,11 +37,10 @@ Y el puerto 21 está abierto:<br>
 ![FTP Puerto abierto](./img/img10.png)
 
 A continuación, creamos a los 3 usuarios que necesitamos (Luis, María y Miguel):<br>
-![FTP Usuarios](./img/img11.png)
+![FTP Usuarios](./img/img11.png)<br>
 (Hay que tener en cuenta que en la captura de pantalla pone que los usuarios ya existen porque los había creado previamente)
 
 Antes de continuar con el siguiente apartado, haremos varias pruebas para comprobar que todo funciona bien:
 
-
-
-# PASO 4: Configuración del servidor vsftpd seguro y pruebas de acceso
++ Anónimo:
+![Anónimo](./img/img12.png)

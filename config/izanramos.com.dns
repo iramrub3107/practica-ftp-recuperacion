@@ -1,0 +1,14 @@
+;
+; izanramos.com
+;
+$TTL    86400
+@   IN  SOA ns.izanramos.com. admin.izanramos.com. (
+         2025101501     ; Serial
+               3600     ; Refresh
+               1800     ; Retry
+             604800     ; Expire
+              86400 )   ; Negative Cache TTL
+;
+@   IN  NS          ns.izanramos.com.
+ns  IN  A           192.168.76.101
+ftp IN  CNAME       ns.izanramos.com.

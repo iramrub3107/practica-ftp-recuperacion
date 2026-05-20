@@ -44,3 +44,9 @@ Antes de continuar con el siguiente apartado, haremos varias pruebas para compro
 
 + Anónimo:
 ![Anónimo](./img/img12.png)
+
++ Luis: (Enjaulado)
+![Luis](./img/img13.png)
+
++ Miguel: (Enjaulado)
+![Miguel](./img/img14.png)

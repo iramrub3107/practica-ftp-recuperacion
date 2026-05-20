@@ -50,3 +50,8 @@ Antes de continuar con el siguiente apartado, haremos varias pruebas para compro
 
 + Miguel: (Enjaulado)
 ![Miguel](./img/img14.png)
+
++ María: (No enjaulada)
+![María](./img/img15.png)
+
+# PASO 4: Configuración del servidor vsftpd seguro

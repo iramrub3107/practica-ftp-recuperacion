@@ -55,3 +55,7 @@ Antes de continuar con el siguiente apartado, haremos varias pruebas para compro
 ![María](./img/img15.png)
 
 # PASO 4: Configuración del servidor vsftpd seguro
+
+Generamos en /etc/ssl/certs el certificado ejecutando:
+
+`sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/certs/izanramos.com.pem -out /etc/ssl/certs/izanramos.com.pem` <br>

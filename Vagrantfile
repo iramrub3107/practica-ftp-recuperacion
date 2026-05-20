@@ -3,5 +3,5 @@ Vagrant.configure("2") do |config|
     ftp.vm.box = "debian/bullseye64"
     ftp.vm.network "private_network", ip: "192.168.76.101"
   end
-  config.vm.provision "shell", path: "provision/master.sh"
+  config.vm.provision "shell", path: "config/bootstrap.sh"
 end

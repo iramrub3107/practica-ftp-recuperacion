@@ -59,3 +59,23 @@ Antes de continuar con el siguiente apartado, haremos varias pruebas para compro
 Generamos en /etc/ssl/certs el certificado ejecutando:
 
 `sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/certs/izanramos.com.pem -out /etc/ssl/certs/izanramos.com.pem` <br>
+En la configuración añadimos las siguientes líneas:
+
+1. rsa_cert_file=/etc/ssl/certs/izanramos.com.pem
+2. rsa_private_key_file=/etc/ssl/certs/izanramos.com.pem
+3. ssl_enable=YES
+4. allow_anon_ssl=NO
+5. force_local_data_ssl=YES
+6. force_local_logins_ssl=YES
+7. ssl_tlsv1=YES
+8. ssl_sslv2=NO
+9. ssl_sslv3=NO
+10. require_ssl_reuse=NO
+
+## Pruebas de acceso
+
++ Anónimo
+![Anónimo](./img/img12.png)
+
++ Luis
+![Luis](./img/img16.png)
